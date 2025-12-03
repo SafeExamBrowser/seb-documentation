@@ -1,0 +1,53 @@
+{
+  "title": "SEB Alliance",
+  "description": "Safe Exam Browser is developed and maintained by a collaborative alliance of educational institutions and contributors worldwide.",
+  "mission": "The SEB Alliance is committed to providing free, open-source secure assessment solutions to educational institutions globally. We believe in the power of community-driven development to create robust, accessible exam security tools.",
+  "contributors": [
+    {
+      "name": "ETH Zürich",
+      "role": "Core Development",
+      "country": "Switzerland",
+      "logo": "🇨🇭"
+    },
+    {
+      "name": "University of Applied Sciences and Arts Northwestern Switzerland",
+      "role": "SEB Server Development",
+      "country": "Switzerland",
+      "logo": "🇨🇭"
+    },
+    {
+      "name": "Austrian Federal Ministry of Education",
+      "role": "Funding & Support",
+      "country": "Austria",
+      "logo": "🇦🇹"
+    },
+    {
+      "name": "Aalborg University",
+      "role": "Research & Testing",
+      "country": "Denmark",
+      "logo": "🇩🇰"
+    }
+  ],
+  "opensource": {
+    "title": "Open Source Commitment",
+    "description": "SEB is released under the Mozilla Public License 2.0, ensuring it remains free and open for all educational institutions. The source code is publicly available on GitHub, and we welcome contributions from the community.",
+    "githubOrg": "https://github.com/SafeExamBrowser",
+    "repositories": [
+      {
+        "name": "seb-win-refactoring",
+        "description": "Windows Client",
+        "url": "https://github.com/SafeExamBrowser/seb-win-refactoring"
+      },
+      {
+        "name": "seb-mac",
+        "description": "macOS Client",
+        "url": "https://github.com/SafeExamBrowser/seb-mac"
+      },
+      {
+        "name": "seb-server",
+        "description": "SEB Server",
+        "url": "https://github.com/SafeExamBrowser/seb-server"
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "sections": [
+    {
+      "id": "seb-server",
+      "title": "SEB Server",
+      "isDefault": true,
+      "icon": "🖥️",
+      "subsections": [
+        {
+          "id": "getting-started",
+          "title": "Getting Started",
+          "order": 1,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Introduction to SEB Server"
+            },
+            {
+              "type": "paragraph",
+              "text": "SEB Server is a web-based application that allows institutions to manage and monitor Safe Exam Browser (SEB) clients during exams. It provides centralized configuration, monitoring, and control capabilities."
+            },
+            {
+              "type": "video",
+              "url": "/placeholder.svg?height=400&width=700",
+              "caption": "SEB Server Overview (5:32)"
+            },
+            {
+              "type": "heading",
+              "text": "Key Features"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Centralized exam configuration management",
+                "Real-time client monitoring",
+                "Secure connection protocols",
+                "Multi-institution support",
+                "Flexible user management"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "installation",
+          "title": "Installation",
+          "order": 2,
+          "content": [
+            {
+              "type": "heading",
+              "text": "System Requirements"
+            },
+            {
+              "type": "paragraph",
+              "text": "Before installing SEB Server, ensure your system meets the following requirements:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Java Runtime Environment 11 or higher",
+                "MySQL 8.0+ or MariaDB 10.5+",
+                "Minimum 4GB RAM (8GB recommended)",
+                "HTTPS-enabled web server"
+              ]
+            },
+            {
+              "type": "image",
+              "url": "/placeholder.svg?height=400&width=700",
+              "caption": "SEB Server installation wizard"
+            },
+            {
+              "type": "heading",
+              "text": "Installation Steps"
+            },
+            {
+              "type": "paragraph",
+              "text": "Follow these steps to install SEB Server on your system:"
+            },
+            {
+              "type": "code",
+              "language": "bash",
+              "code": "# Download the latest release\nwget https://github.com/SafeExamBrowser/seb-server/releases/latest\n\n# Extract the archive\ntar -xzf seb-server-*.tar.gz\n\n# Navigate to installation directory\ncd seb-server\n\n# Run the installation script\n./install.sh"
+            }
+          ]
+        },
+        {
+          "id": "configuration",
+          "title": "Configuration",
+          "order": 3,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Configuring SEB Server"
+            },
+            {
+              "type": "paragraph",
+              "text": "SEB Server can be configured through the application.properties file or via environment variables. Below are the key configuration parameters:"
+            },
+            {
+              "type": "image",
+              "url": "/placeholder.svg?height=400&width=700",
+              "caption": "Configuration interface"
+            },
+            {
+              "type": "code",
+              "language": "properties",
+              "code": "# Database Configuration\nspring.datasource.url=jdbc:mysql://localhost:3306/sebserver\nspring.datasource.username=sebserver\nspring.datasource.password=your_secure_password\n\n# Server Configuration\nserver.port=8080\nserver.ssl.enabled=true"
+            }
+          ]
+        },
+        {
+          "id": "monitoring",
+          "title": "Client Monitoring",
+          "order": 4,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Monitoring Connected Clients"
+            },
+            {
+              "type": "paragraph",
+              "text": "SEB Server provides real-time monitoring of all connected SEB clients during an exam. You can view client status, connection quality, and detected incidents."
+            },
+            {
+              "type": "video",
+              "url": "/placeholder.svg?height=400&width=700",
+              "caption": "Real-time monitoring tutorial (7:15)"
+            },
+            {
+              "type": "image",
+              "url": "/placeholder.svg?height=400&width=700",
+              "caption": "Monitoring dashboard with active clients"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seb-client",
+      "title": "SEB Client",
+      "isDefault": false,
+      "icon": "💻",
+      "subsections": [
+        {
+          "id": "client-overview",
+          "title": "Overview",
+          "order": 1,
+          "content": [
+            {
+              "type": "heading",
+              "text": "What is SEB Client?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe Exam Browser (SEB) is a secure browser environment for taking online exams safely. It turns any computer into a secure workstation by controlling access to utilities and preventing students from using unauthorized resources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screen-proctoring",
+      "title": "Screen Proctoring",
+      "isDefault": false,
+      "icon": "👁️",
+      "subsections": [
+        {
+          "id": "proctoring-overview",
+          "title": "Overview",
+          "order": 1,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Screen Proctoring Server"
+            },
+            {
+              "type": "paragraph",
+              "text": "The Screen Proctoring Server enables real-time monitoring of student screens during exams, providing an additional layer of exam security."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

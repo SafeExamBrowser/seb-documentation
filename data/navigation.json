@@ -1,0 +1,30 @@
+{
+  "main": [
+    {
+      "id": "downloads",
+      "label": "Downloads",
+      "href": "/downloads"
+    },
+    {
+      "id": "documentation",
+      "label": "Documentation",
+      "href": "/documentation"
+    },
+    {
+      "id": "alliance",
+      "label": "SEB Alliance",
+      "href": "/alliance"
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "href": "https://github.com/SafeExamBrowser",
+      "external": true
+    }
+  ]
+}

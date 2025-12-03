@@ -1,0 +1,145 @@
+{
+  "client": {
+    "title": "SEB Client",
+    "description": "For students taking secure exams",
+    "platforms": [
+      {
+        "id": "windows",
+        "name": "Windows",
+        "icon": "💻",
+        "versions": [
+          {
+            "version": "3.7.0",
+            "releaseDate": "2024-01-15",
+            "isLatest": true,
+            "downloadUrl": "#",
+            "changelog": "Improved stability and performance",
+            "requirements": "Windows 10 or later"
+          },
+          {
+            "version": "3.6.0",
+            "releaseDate": "2023-11-20",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "Bug fixes and security updates"
+          },
+          {
+            "version": "3.5.0",
+            "releaseDate": "2023-09-10",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "UI improvements"
+          }
+        ]
+      },
+      {
+        "id": "macos",
+        "name": "macOS",
+        "icon": "🍎",
+        "versions": [
+          {
+            "version": "3.4.1",
+            "releaseDate": "2024-01-10",
+            "isLatest": true,
+            "downloadUrl": "#",
+            "changelog": "macOS Sonoma support",
+            "requirements": "macOS 11 or later"
+          },
+          {
+            "version": "3.4.0",
+            "releaseDate": "2023-10-15",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "Performance improvements"
+          },
+          {
+            "version": "3.3.0",
+            "releaseDate": "2023-08-05",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "Security enhancements"
+          }
+        ]
+      },
+      {
+        "id": "ios",
+        "name": "iOS/iPadOS",
+        "icon": "📱",
+        "versions": [
+          {
+            "version": "3.2.0",
+            "releaseDate": "2024-01-05",
+            "isLatest": true,
+            "downloadUrl": "#",
+            "changelog": "iOS 17 compatibility",
+            "requirements": "iOS 14 or later"
+          },
+          {
+            "version": "3.1.0",
+            "releaseDate": "2023-09-20",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "iPad optimization"
+          }
+        ]
+      }
+    ]
+  },
+  "server": {
+    "title": "SEB Server",
+    "description": "For institutions managing secure exams",
+    "products": [
+      {
+        "id": "seb-server",
+        "name": "SEB Server",
+        "description": "Complete exam management solution",
+        "versions": [
+          {
+            "version": "2.0.1",
+            "releaseDate": "2024-01-20",
+            "isLatest": true,
+            "downloadUrl": "#",
+            "changelog": "Enhanced monitoring features",
+            "requirements": "Java 11+, MySQL 8+"
+          },
+          {
+            "version": "2.0.0",
+            "releaseDate": "2023-12-01",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "Major version update"
+          },
+          {
+            "version": "1.5.2",
+            "releaseDate": "2023-10-10",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "Security patches"
+          }
+        ]
+      },
+      {
+        "id": "screen-proctoring",
+        "name": "Screen Proctoring Server",
+        "description": "Real-time screen monitoring",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "releaseDate": "2024-01-18",
+            "isLatest": true,
+            "downloadUrl": "#",
+            "changelog": "Improved streaming quality",
+            "requirements": "Java 11+, PostgreSQL 12+"
+          },
+          {
+            "version": "1.2.0",
+            "releaseDate": "2023-11-15",
+            "isLatest": false,
+            "downloadUrl": "#",
+            "changelog": "Performance optimizations"
+          }
+        ]
+      }
+    ]
+  }
+}

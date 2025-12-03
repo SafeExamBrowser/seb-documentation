@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "title": "General Questions",
+      "questions": [
+        {
+          "question": "What is Safe Exam Browser?",
+          "answer": "Safe Exam Browser (SEB) is a secure browser environment for taking online exams safely. It turns any computer into a secure workstation by controlling access to utilities like task switchers, screen capture, and other applications."
+        },
+        {
+          "question": "Is SEB free to use?",
+          "answer": "Yes, SEB is completely free and open-source software released under the Mozilla Public License 2.0. Both students and institutions can use it without any licensing fees."
+        },
+        {
+          "question": "Which platforms does SEB support?",
+          "answer": "SEB is available for Windows, macOS, and iOS/iPadOS. Each platform has its own optimized client application."
+        }
+      ]
+    },
+    {
+      "id": "students",
+      "title": "For Students",
+      "questions": [
+        {
+          "question": "How do I install SEB on my computer?",
+          "answer": "Visit the Downloads page, select SEB Client, choose your operating system (Windows, macOS, or iOS), and download the latest version. Run the installer and follow the on-screen instructions."
+        },
+        {
+          "question": "Can I use SEB on my tablet?",
+          "answer": "Yes, SEB is available for iOS/iPadOS devices. You can download it from the App Store or from our Downloads page."
+        },
+        {
+          "question": "What should I do if SEB won't start?",
+          "answer": "Ensure you have the latest version installed and that your system meets the minimum requirements. If issues persist, contact your institution's IT support or check our troubleshooting documentation."
+        }
+      ]
+    },
+    {
+      "id": "institutions",
+      "title": "For Institutions",
+      "questions": [
+        {
+          "question": "What is the difference between SEB Server and Screen Proctoring Server?",
+          "answer": "SEB Server manages exam configurations and monitors client connections. Screen Proctoring Server adds real-time screen capture and monitoring capabilities for enhanced exam security."
+        },
+        {
+          "question": "Can we host SEB Server on our own infrastructure?",
+          "answer": "Yes, SEB Server is designed to be self-hosted. You have full control over the installation and can deploy it on your own servers."
+        },
+        {
+          "question": "Does SEB integrate with our LMS?",
+          "answer": "SEB works with most major Learning Management Systems including Moodle, Canvas, Blackboard, and others through standard integration protocols."
+        }
+      ]
+    }
+  ]
+}
