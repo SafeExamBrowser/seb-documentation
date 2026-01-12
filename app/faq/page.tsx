@@ -39,7 +39,7 @@ export default function FAQPage() {
                       >
                         <button
                           onClick={() => toggleQuestion(category.id, questionIndex)}
-                          className="w-full px-6 py-4 text-left flex items-center justify-between gap-4 hover:bg-(--color-surface) transition-colors"
+                          className="w-full cursor-pointer px-6 py-4 text-left flex items-center justify-between gap-4 hover:bg-(--color-surface) transition-colors"
                         >
                           <span className="font-semibold text-(--color-gray)">{item.question}</span>
                           <span
