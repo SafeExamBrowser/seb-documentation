@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    output: "standalone"
-  /* config options here */
+    output: "standalone",
+    basePath: "/seb-documentation",
+    assetPrefix: "/seb-documentation",
 };
 
 export default nextConfig;
