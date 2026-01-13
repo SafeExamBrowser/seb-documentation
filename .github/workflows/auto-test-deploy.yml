@@ -57,5 +57,5 @@ jobs:
           context: .
           push: true
           tags: |
-            docker.io/${{ secrets.DOCKERHUB_ADMIN_USERNAME }}/<seb-documentation>:latest
-            docker.io/${{ secrets.DOCKERHUB_ADMIN_USERNAME }}/<seb-documentation>:${{ env.IMAGE_TAG_SHA }}
+            docker.io/${{ secrets.DOCKERHUB_ADMIN_USERNAME }}/seb-documentation:latest
+            docker.io/${{ secrets.DOCKERHUB_ADMIN_USERNAME }}/seb-documentation:${{ env.IMAGE_TAG_SHA }}
